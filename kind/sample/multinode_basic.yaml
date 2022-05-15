@@ -1,0 +1,13 @@
+# To create cluster with this config, execute below on your terminal
+# $) kind create cluster --config multinode_basic.yaml
+
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+
+name: multinode.local.cluster
+
+nodes:
+- role: control-plane
+- role: worker
+- role: worker
+- role: worker

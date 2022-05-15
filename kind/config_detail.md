@@ -5,7 +5,7 @@ kind: Cluster
 apiVersion: kind.x-k8s.io/v1alpha4
 
 # Optional fields from here
-name: someGreatClusterName
+name: some.great.cluster.name
 
 ## Configure nodes, mandatory if you want to have multi-node k8s cluster
 nodes:
